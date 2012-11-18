@@ -1,3 +1,10 @@
-#base {
-    border-solid: 1px;
-}
+#logo {background-image: url("images/background.png"); padding: 20px 20px; border-bottom: 30px solid #efefef;}
+
+html {height: 50%}
+     
+body {height: 50%;}
+     
+#map {height: 60%; margin: 0 auto;}
+
+#border {border-bottom: 1px solid #fff;}
+
