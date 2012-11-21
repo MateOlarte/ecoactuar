@@ -1,11 +1,29 @@
 html { height: 100% }
   
-body { height: 100%; margin: 0px; padding: 0px }
+body { height: 100%; margin: 0px; padding: 0px; background-color: #efefef; }
 
-#header { background-image: url("images/background.png"); padding: 20px 20px; margin-bottom: 20px; }
+#header { background-image: url("images/header.gif"); padding: 20px 20px; border-top: 3px solid #4c841a; }
 
 .logo { width: 159px; height: 156px; margin: 0 auto; }
 
-#map_canvas { margin: 0 auto; height: 100% }
+#map_canvas { height: 394px; margin: 0 auto; margin-top: 11px; }
 
-.logo-footer { margin-bottom: 10px; margin-left: 50px; }
+.logo-footer { float: left; width: 110px; height: 90px; }
+
+.container { background: #fff; padding: 10px; -webkit-box-shadow: 0px 0px 8px rgba(50, 50, 50, 0.25); -moz-box-shadow: 0px 0px 8px rgba(50, 50, 50, 0.25); box-shadow: 0px 0px 8px rgba(50, 50, 50, 0.25); }
+
+.grey { background: #f9f9f9; border: 1px solid #f1f1f1; border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; padding: 20px; margin-top: 10px; } 
+
+h1, h2, h3, h4, h5, h6 { font-family: "Ubuntu", Arial, Helvetica, Sans-serif;  }
+
+hr { height:1px; border: 0; border-top: 1px solid #ccc; width: 100%; margin: 25px 0;  }
+
+ul li { list-style: none; }
+ul li.twitter a { margin-right: 15px; float:left; background: url("http://cdn1.iconfinder.com/data/icons/vector_social_media_icons/32px/twitter.png") no-repeat; height:32px; width: 32px; text-indent: -9999px; }
+ul li.twitter a:hover { background: url("http://cdn1.iconfinder.com/data/icons/web2/Icons/Twitter_32x32.png") no-repeat;  }
+
+ul li.facebook a { margin-right: 15px; float:left; background: url("http://cdn1.iconfinder.com/data/icons/vector_social_media_icons/32px/twitter.png") no-repeat; height:32px; width: 32px; text-indent: -9999px; }
+ul li.facebook a:hover { background: url("http://cdn1.iconfinder.com/data/icons/web2/Icons/Twitter_32x32.png") no-repeat;  }
+
+ul li.google a { float:left; background: url("http://cdn1.iconfinder.com/data/icons/vector_social_media_icons/32px/twitter.png") no-repeat; height:32px; width: 32px; text-indent: -9999px; }
+ul li.google a:hover { background: url("http://cdn1.iconfinder.com/data/icons/web2/Icons/Twitter_32x32.png") no-repeat;  }
