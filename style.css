@@ -19,11 +19,11 @@ h1, h2, h3, h4, h5, h6 { font-family: "Ubuntu", Arial, Helvetica, Sans-serif;  }
 hr { height:1px; border: 0; border-top: 1px solid #ccc; width: 100%; margin: 25px 0;  }
 
 ul li { list-style: none; }
-ul li.twitter a { margin-right: 15px; float:left; background: url("http://cdn1.iconfinder.com/data/icons/vector_social_media_icons/32px/twitter.png") no-repeat; height:32px; width: 32px; text-indent: -9999px; }
-ul li.twitter a:hover { background: url("http://cdn1.iconfinder.com/data/icons/web2/Icons/Twitter_32x32.png") no-repeat;  }
+ul li.twitter a { margin-right: 15px; float:left; background: url("images/twitter.jpg") no-repeat; height:48px; width: 48px; text-indent: -9999px; }
+ul li.twitter a:hover { background: url("images/twitter2.jpg") no-repeat;  }
 
-ul li.facebook a { margin-right: 15px; float:left; background: url("http://cdn1.iconfinder.com/data/icons/vector_social_media_icons/32px/twitter.png") no-repeat; height:32px; width: 32px; text-indent: -9999px; }
-ul li.facebook a:hover { background: url("http://cdn1.iconfinder.com/data/icons/web2/Icons/Twitter_32x32.png") no-repeat;  }
+ul li.facebook a { margin-right: 15px; float:left; background: url("images/facebook.jpg") no-repeat; height:48px; width: 48px; text-indent: -9999px; }
+ul li.facebook a:hover { background: url("images/facebook2.jpg") no-repeat;  }
 
-ul li.google a { float:left; background: url("http://cdn1.iconfinder.com/data/icons/vector_social_media_icons/32px/twitter.png") no-repeat; height:32px; width: 32px; text-indent: -9999px; }
-ul li.google a:hover { background: url("http://cdn1.iconfinder.com/data/icons/web2/Icons/Twitter_32x32.png") no-repeat;  }
+ul li.google a { float:left; background: url("images/google.jpg") no-repeat; height:48px; width: 48px; text-indent: -9999px; }
+ul li.google a:hover { background: url("images/google.jpg") no-repeat;  }
