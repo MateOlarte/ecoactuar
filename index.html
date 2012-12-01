@@ -2,7 +2,7 @@
 <html lang="es">
 	<head>
 	  <meta charset="utf-8">
-	  <title>Ecoactuar: Actuando verde</title>
+	  <title>Ecoactuar</title>
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 	  	       
 	  <!-- Bootstrap -->
@@ -11,9 +11,8 @@
 	  
 	  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 	  <!--[if lt IE 9]>
-	  <script src="
-	  /svn/trunk/html5.js"></script>
-	  <![endif]-->
+      <script src="dist/html5shiv.js"></script>
+      <![endif]-->
 	  
 	  <!-- Styles -->
 	  <link rel="stylesheet" href="style.css"  type="text/css" />
@@ -25,96 +24,69 @@
   </head>
 
   <body onload="initialize()">
-
-        <div class="row">
-            <div id="header">
-                <div class="logo"><a href="https://c9.io/mateolarte/ecoactuar/workspace/index.html"><img src="images/logo.png" /></a></div>
-            </div>
-        </div>
-
-		<div class="container">	
-			<div class="row">
-				<div class="span12">
-					<h2 align="center">Mapa de Reportes</h2> 
-					<a href="https://c9.io/mateolarte/ecoactuar/workspace/report.html" target="blank_">
-					<button style="text-align:rigth;" class="btn btn-large btn-success" type="button">Reporte</button>
-					</a>
-				<div id="map_canvas"></div>
-				</div>
+    <header>
+        <div id="logo"><a href="https://c9.io/mateolarte/ecoactuar/workspace/index.html"><img src="images/logo.png" /></a></div>
+        <h5 class="text">Reporta y Actuemos en Comunidad</h5>
+	  </header>
+		
+	  <div class="container">	
+	    <div class="row">
+		    <div class="span12">
+			    <a href="https://c9.io/mateolarte/ecoactuar/workspace/index.html"><button class="btn btn-large btn-success" type="button">Inicio</button></a>
+			    <a href="https://c9.io/mateolarte/ecoactuar/workspace/report.html" target="blank_"><button class="btn btn-large btn-success" type="button">Reporte</button></a>
+				  <h2 align="center">Mapa de Reportes</h2> 
+				  <div class="mapita"><div id="map_canvas"></div></div>
+			  </div>
 				
+	      <div class="span8">
+	  	    <section>
+		  	    <h3>Ultimos Reportes</h3>	        
+				    <article class="media">
+					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eros augue, fermentum id commodo eu, accumsan id erat. In ac erat mauris, sed ullamcorper turpis. Aliquam iaculis nulla vel libero vehicula tempor.
+				    </article><br />
+				 
+    			  <article class="media">
+					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eros augue, fermentum id commodo eu, accumsan id erat. In ac erat mauris, sed ullamcorper turpis. Aliquam iaculis nulla vel libero vehicula tempor.
+				    </article><br />
 
-				
-	    	<div class="span8">
-	    		<div class="grey">
-		        <h3>Ultimos Reportes</h3>	        
-	        
-	        <div class="media">
-						<a class="pull-left" href="#">
-							<img class="img-polaroid" src="" width="100" height="100">
-						</a>
-					<div class="media">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eros augue, fermentum id commodo eu, accumsan id erat. In ac erat mauris, sed ullamcorper turpis. Aliquam iaculis nulla vel libero vehicula tempor.
-					</div>
-					</div>	
-					<div class="media">
-						<a class="pull-left" href="#">
-				    	<img class="img-polaroid" src="" width="100" height="100">
-				  	</a>
-					<div class="media">
-				    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eros augue, fermentum id commodo eu, accumsan id erat. In ac erat mauris, sed ullamcorper turpis. Aliquam iaculis nulla vel libero vehicula tempor.
-				  </div>
-					</div>	
-				
-				<div class="media">
-				  <a class="pull-left" href="#">
-				    <img class="img-polaroid" src="" width="100" height="100">
-				  </a>
-				<div class="media">
-				    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eros augue, fermentum id commodo eu, accumsan id erat. 
-				    In ac erat mauris, sed ullamcorper turpis. Aliquam iaculis nulla vel libero vehicula tempor.
-				  </div>
-				</div>	
-				
-				<div class="media">
-				  <a class="pull-left" href="#">
-				    <img class="img-polaroid" src="" width="100" height="100">
-				  </a>
-				  <div class="media">
-				    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eros augue, fermentum id commodo eu, accumsan id erat. 
-				    In ac erat mauris, sed ullamcorper turpis. Aliquam iaculis nulla vel libero vehicula tempor.
-				  </div>
-				</div>	
-	    </div>
-	  </div>
+    			  <article class="media">
+					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eros augue, fermentum id commodo eu, accumsan id erat. In ac erat mauris, sed ullamcorper turpis. Aliquam iaculis nulla vel libero vehicula tempor.
+				    </article><br />
+				 
+				    <article class="media">
+					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eros augue, fermentum id commodo eu, accumsan id erat. In ac erat mauris, sed ullamcorper turpis. Aliquam iaculis nulla vel libero vehicula tempor.
+				    </article>
+	        </section>
+	      </div>
 
-		    <div class="span4">
-		    	<h3>Contacto</h3>
-		    	<ul>
-		    		<li class="twitter"><a href"#">twitter</a></li>
-		    		<li class="facebook"><a href"#">facebook</a></li>
-		    		<li class="google"><a href"#">google</a></li>
-		    	</ul>
-		    	<br /><br /><br />
-		    	<hr />
-		    	<h3>Acerca de</h3>
-		    	<div class="logo-footer">
-	            <img class="img-polaroid" src="images/logo2.png" />
-	            </div>
-                Ecoactuar es un proyecto en el cual puedes exponer, comentar y expresar desastres naturales y ambientales como, Deterioro del ecosistema, Incendios Forestales, Desechos tóxicos en zonas ambientales, Daños en terrenos Prohibidos, Entre otros.
-		    </div>
+		    <aside class="span4">
+			    <h3>Contacto</h3>
+		  	    <ul>
+			  	    <li class="twitter"><a href"#">twitter</a></li>
+		    	    <li class="facebook"><a href"#">facebook</a></li>
+		    	    <li class="google"><a href"#">google</a></li>
+		        </ul>
+		        <br /><br />
+		        <hr />
+			    <h3>Acerca de</h3>
+		  	    <div class="logo2">
+	      	    <img class="img-polaroid" src="images/logo2.png" />
+	          </div>
+      	    Ecoactuar es una plataforma en el cual puedes presentar reportes sobre Desastres Naturales y Ambientales como, Peligro en la Flora y Fauna, Incendios Forestales, Desechos Tóxicos en zonas Ambientales, Daños en Terrenos Prohibidos, Contaminacion de Rios y Lagunas.
+		    </aside>
 		    
-		    <div class="span12"><hr /> <center>© 2012 Ecoactuar | Todos los derechos reservados</center></div>
-        </div>
-    	</div>	
+		    <footer class="span12"><hr /> <center>© 2012 Ecoactuar | Todos los derechos reservados</center></footer>
+      </div>
+    </div>	
 				
-				<script type="text/javascript" src="js/lib/jquery-1.8.3.min.js"></script>
-				<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/lib/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
 				
-				<script type="text/javascript" src="js/lib/json2-min.js"></script>
+		<script type="text/javascript" src="js/lib/json2-min.js"></script>
         <script type="text/javascript" src="js/lib/underscore-1.4.1-min.js"></script>
         <script type="text/javascript" src="js/lib/backbone-0.9.2-min.js"></script>
         <script type="text/javascript" src="js/lib/stackmob-js-0.6.0-min.js"></script>
 				
-				<script type="text/javascript" src="js/lib/ecoactuar.js"></script>
+		<script type="text/javascript" src="js/lib/ecoactuar.js"></script>
   </body>
 </html>
