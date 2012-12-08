@@ -7,7 +7,7 @@ function initialize() {
 		mapTypeControl: true,
 		scaleControl: false,
 		draggable: true,
-		zoom: 13,
+		zoom: 12,
 		center: new google.maps.LatLng(6.235925,-75.575137),
 		mapTypeId: google.maps.MapTypeId.ROADMAP
   }, myOptions;
@@ -30,7 +30,7 @@ function initialize() {
 		var marker = new google.maps.Marker({
 			position: location,
 			map: map,
-			icon: "images/danger.png",
+			icon: "images/danger5.png",
     });
      	
     markers.push(marker);

@@ -26,6 +26,6 @@ $(document).ready(function() {
         }, 
     });
 
-    console.log("Created a new report");
+    alert("Reporte Enviado");
   });
 });

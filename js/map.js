@@ -23,9 +23,11 @@ function initialize() {
             
       var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
       var infowindow = new google.maps.InfoWindow;
-        
+       
+        var q = new StackMob.Collection.Query();
+          q.setRange(0,3).orderDesc('createddate');
         //recoje todo lo de stackmob
-        reports.fetch({
+        reports.query(q, {
           //si es correcto
           success: function(model) {
             var reports = model.toJSON();
@@ -42,22 +44,26 @@ function initialize() {
                 map:map,
                 title:report.title,
                 draggable:true,
-                icon:"images/danger.png", 
-              })  
+                icon:"images/danger5.png", 
+              });
                   
-              //
+              //descripcion del reporte
               var contentString = report.description;
+              //lo que imprime 
               bindInfoW(marker, contentString, infowindow, map);
+              
+               if(ix <= 3){
+              $("#reportes").append("<h4>"+ report.title +"</h4><p>" + report.description + "</p>");
+               }
             });
           }
         });
     });
 }
-
-function bindInfoW(marker, contentString, infowindow, map)
-{
-        google.maps.event.addListener(marker, 'click', function() {
-            infowindow.setContent(contentString);
-            infowindow.open(map, marker);
-        });
-}
+    //funcion del reporte
+    function bindInfoW(marker, contentString, infowindow, map){
+      google.maps.event.addListener(marker, 'click', function() {
+        infowindow.setContent(contentString);
+        infowindow.open(map, marker);
+      });
+    }
