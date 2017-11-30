@@ -30,7 +30,7 @@ function initialize() {
 		var marker = new google.maps.Marker({
 			position: location,
 			map: map,
-			icon: "images/danger5.png",
+			icon: "images/danger.png",
     });
      	
     markers.push(marker);
